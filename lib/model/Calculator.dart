@@ -19,6 +19,7 @@ class Calculator {
   onRemoveAll(){
     _actual = "0";
     _op = "+";
+    _result = 0;
   }
 
   onDotPressed(){
